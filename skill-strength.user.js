@@ -91,7 +91,7 @@ function f($) {
         if ($("section.sidebar-left > div.inner").length > 0) {
             $("section.sidebar-left > div.inner").append(el);
         } else {
-            var parent = $("h2:contains('Leaderboard'),h2:contains('Bestenliste'),h2:contains('Tabella campioni')").parent();
+            var parent = $("h2:contains('Leaderboard'),h2:contains('Bestenliste'),h2:contains('Classifica')").parent();
 
 
             el.addClass(parent.attr('class'));
